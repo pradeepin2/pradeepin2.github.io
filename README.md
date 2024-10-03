@@ -1,180 +1,51 @@
-[![CI](https://img.shields.io/badge/Github%20Pages-passing-gold.svg?logo=github)](ci)
-[![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
-[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.9-green.svg)](https://jekyllrb.com/)
-[![Jekyll](https://img.shields.io/badge/gem%20version-3.2.33-blue.svg)](gem)
-<a href="https://jekyll-themes.com/byanko55/jekyll-professional-resume">
-  <img
-    src="https://img.shields.io/badge/featured%20on-JT-red.svg"
-    height="20"
-    alt="Jekyll Themes Shield"
-  />
-</a>
+I am Pradeep Kumar Saraswathi
 
-# 🎓 - Jekyll Professional Resume
+User Interface Architect and Thought Leader in Building Advanced Digital Platforms
 
-A simple and modern resume template, best fit for either **Academic CV (Curriculum Vitae)** or **Engineer Portfolio**.
+I am Pradeep Kumar Saraswathi (https://spradeep.com/about/#/), an User Interface Architect and leader in building digital platforms and AI Integration. Currently, I hold the position of PMTS Software Engineering at Salesforce
 
-Live demo is available [here](https://byanko55.github.io/resume-demo/).
+A passionate and results-oriented Principal software engineer (PMTS) with over 18 years of experience in architecting, developing and implementing web based user interfaces and platforms like AI Integration, Digital experience platform, Content Management Platform, Analytics Platform, Gaming platform, Storage and Collaboration platform.
 
-![demo](https://i.ibb.co/HYshYc0/231232121.webp)
+I have been an integral part of a successful start-up to unicorn, from inception to acquisition, and worked in B2B, B2C and SaaS products in the domains of Customer Success and Cloud Software Suite for Businesses.
 
-## Setup
-Fork [this repository](https://github.com/byanko55/jekyll-professional-resume) or download the [source](https://github.com/byanko55/jekyll-professional-resume/releases) as a zip.
+I have been passionate about building web based user interfaces and applications using the latest technology innovations that can cater to omnipresence requirements of customers. I hold a patent has been applied for my innovation at work in "Creating a Platform-agnostic WYSIWYG Canvas"
 
-**Rename your repository as USERNAME.github.io or anything else.**
+JUDGE FOR PRESTIGIOUS INDUSTRY AWARDS
 
-If you choose the former, then your URL will be https://USERNAME.github.io/.
+Distinguished judge for one of the most popular hackathons, LA Hacks (Hackathon by University of California, LA). This role underscores your deep industry knowledge and commitment to recognizing excellence in the field of technology and innovation. with 190+projects and participation of 1000+members.
 
-Otherwise (let's say `myresume`), you need to edit the '*baseurl*' parameter in `_config.yml`. In this case, the resume page will be served to "https://USERNAME.github.io/myresume/".
+Technical Judge for popular hackathons, This role underscores your deep industry knowledge and commitment to recognizing excellence in the field of technology and innovation. Davis Hacks (https://hackdavis.io/event, Hackathon by University of California, Davis) where more than 100+projects and participation 500+members
 
-```yml
-# set baseurl as "/<repo-name>". ex) baseurl: /myresume
-baseurl: myresume/
-```
+Judge for Globee® Awards for Disruptors credential from Globee Awards! that requires them to leverage their expertise to assess the quality, relevance, and compliance of these submissions, while also contributing their knowledge through mentoring, advising, or participating in decision-making. Their role is crucial in shaping standards and practices within their industry, underscoring the impact of their work on business and professional growth. This credential serves as a formal recognition of their commitment and significant contributions to their field.
 
+TECHNICAL CONTRIBUTOR TO PRESTIGIOUS ORGANIZATIONS W3C (World Wide Web Consortium): Actively contributed to developing web standards as a professional member, ensuring that web technologies remain accessible, ethical, and secure .
 
-### Update Profile
-In `_config.yml`, you can modify personal info such as your *photo, phone number, email*, and other social accounts. 
+IEEE (Institute of Electrical and Electronics Engineers): As a Senior member contributed to the advancement of technology through scholarly work and leadership in various IEEE initiatives .
 
-```yml
-profile_img: assets/img/profile.webp
-icon_img: assets/img/icon.webp
+OWASP (Open Web Application Security Project): As a professional member involves developing web security standards, emphasizing the importance of secure application development .
 
-name: "Your Name Here"
-job: "〈Your Job Here〉"
+ACM (Association for Computing Machinery): Involved as a professional member highlights my commitment to the computing community and the advancement of computing as a science and profession.
 
-phone_number: 012-345-6789
-address: City, Country
-email: email@example.com
-linkedin_username: linkedin
-github_username: github
-...
+INDUSTRY AWARDS FOR MY CONTRIBUTIONS
 
-```
+I've been honored with the 2024 Business Titan Awards Technical Professional of the Year for For Excellence in User Interface Architect and Thought Leadership in Building Advanced Digital Platforms 🌟
 
-### Create a Topic
+I've been honored with the 𝐈𝐧𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐀𝐜𝐡𝐢𝐞𝐯𝐞𝐫𝐬' 𝐀𝐰𝐚𝐫𝐝 for For Excellence in User Interface Architect and Thought Leadership in Building Advanced Digital Platforms 🌟 This award recognizes outstanding professional achievement and contributions towards nation-building.
 
-All resume information should be placed in a directory named '`_data`'. You may need to manage personal data in separate groups, making a *Yaml* (`.yml`) file for each subject.
+Key Highlights:
 
-```
-._data
-├── SUBJECT1.yml
-├── SUBJECT2.yml
-├── SUBJECT3.yml
-...
+Technical mastery in user interface engineering across the spectrum of web, mobile and emerging technologies
 
-```
+Pioneer in envisioning, strategizing and building multiple digital experience platforms and content ecosystems from ideation to delivery
 
-For instance,
+Advances accessible and ethical application development standards globally through public contributions
 
-```
-._data
-├── Awards.yml
-├── Education.yml
-├── Experience.yml
-├── Languages.yml
-├── Projects.yml
-├── Publications.yml
-├── Skills.yml
-```
+Patent-pending innovations in simplifying digital content authoring
 
-### Fill your infomation
+Software engineering leader who has built high performing teams and led large scale implementations
 
-Open the *Yaml* file which you created right before. Add the following materials inside of the file.
+Working as PMTS UI @ Salesforce
 
-* **subject**: title of a subject
-* **listing-order**: determines the display order (from top to bottom)
-* **icon**: representative icon to be displayed (pick out from `resources/svgs`)
-* **contents**: The details of each item, listed in `KEY`-`VALUE` pairs 
+More details visit my website https://spradeep.com
 
-```yml
-subject:
-listing-order:
-icon:
-contents:
-  - title: ITEM 1
-    KEY: VALUE
-    KEY: VALUE
-    ...
-  - title: ITEM 2
-    KEY: VALUE
-    ...
-```
-
-For a better understanding, see the example below.
-
-```yml
-subject: Education
-listing-order: 1
-icon: "/assets/img/graduation-cap.svg"
-contents:
-  - title: Stanfort University, MA in Computer Science
-    description:
-      - Development of algorithms for tracking the facial expressions
-      - Optimizing parameter efficient fine tuning for fairness
-    grade: "**GPA**: `4.1/4.3`"
-    date: Mar. 2014 - Feb. 2016
-  ...
-
-```
-
-The rendered output looks like this:
-
-![example1](https://i.ibb.co/9TGKPrv/123312.webp)
-
-See also the advanced example. 
-
-> **Important**: You can use markdown syntax to **apply text bold, italic, and underlined** effects or **create HTML elements** (including image, links, span, etc.)!
-
-```yml
-subject: Projects
-listing-order: 3
-icon: "/assets/img/clipboard-list.svg"
-contents:
-  - title: "ChatPPT ([https://chat.opena1.com/](https://chat.openai.com/))"
-    description: 
-      - Chatbot developed based on a large language model
-      - Designed Generative algorithm to generate novel human-like content
-      - "Technology Used: Rust, Typescript, Python, Ruby"
-    image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
-  ...
-
-```
-
-![example](https://i.ibb.co/tCNCyYr/231321.webp)
-
-## Build from Gem package
-
-If you don't like the above setup option (clone/fork the original github repo), then you can also build your site by installing the gem package remotely. Read this altenative [guide](https://github.com/byanko55/jekyll-professional-resume/blob/master/docs/Installation%20from%20package.md).
-
-## Customizing
-
-### Change Color Palette
-Wanna pick another color? You can edit the base theme palette in `assets/css/style.scss`.
-```css
-:root {
-    --color-background: #fffdfb;
-    --theme1-light: #F6D8CB;
-    --theme1-medium: #D0A694;
-    --theme1-dim: #B07D67;
-    --theme1-dark: #8A5843;
-    --theme2-light: #B1B1C2;
-    ...
-
-}
-```
-
-### Site Shortcut Icon
-To replace the shortcut icon displayed on browser tab, modify *icon_img* field in `_config.yml`.
-![shortcut](https://i.ibb.co/g9cYjRj/213213214.webp)
-
-```yml
-icon_img: "<IMAGE URL/PATH>"
-```
-
-## Contribution
-If you would like to report a bug or request a new feature, please open [an issue](https://github.com/byanko55/jekyll-professional-resume/issues) We are open to any kind of feedback or collaboration.
-<br></br>
-
-## License
-© 2024 *Yankos*. This theme is available as open source under the terms of the [MIT License](https://opensource.org/license/mit/).
+https://spradeep.com
